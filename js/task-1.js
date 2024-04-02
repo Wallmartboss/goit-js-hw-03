@@ -4,6 +4,9 @@ function slugify(title) {
 	for (let i = 0; i < array_title.length; i += 1) {
 		let item = array_title[i].toLowerCase();
 		array_new.push(item);
+		// console.log(array_title[i]);
+		// console.log(item);
+		// console.log(array_new);
 	}
 	const arr = array_new.join("-");
 	return arr;
